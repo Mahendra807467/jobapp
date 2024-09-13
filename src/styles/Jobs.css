@@ -1,0 +1,22 @@
+.jobs-container {
+    padding: 20px;
+  }
+  
+  .jobs-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .jobs-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .jobs-container p {
+    color: #555;
+    font-size: 16px;
+  }

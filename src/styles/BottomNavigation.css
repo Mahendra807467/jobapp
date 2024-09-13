@@ -1,0 +1,23 @@
+.bottom-navigation {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .bottom-navigation button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .bottom-navigation button.active {
+    color: #007bff;
+    font-weight: bold;
+  }
